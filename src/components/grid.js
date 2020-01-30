@@ -2,21 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import FormRow from './FormRow';
 
-// const useStyles = makeStyles(theme => ({
-//   root: {
-//     display: "flex",
-//     justifyContent: "center",
-//     alignItems: "center"
-//   },
-//   paper: {
-//     padding: theme.spacing(1),
-//     textAlign: 'center',
-//     color: theme.palette.text.secondary,
-//   },
-// }));
-
 export default function BuildGrid(grid) {
-  //const classes = useStyles();
 
   return (
     <div style = {{padding: '0 0 0 20%'}}>
@@ -41,6 +27,3 @@ export default function BuildGrid(grid) {
   );
 }
 
-// function changeVisability(){
-  
-// }
